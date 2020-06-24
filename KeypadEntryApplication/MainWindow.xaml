@@ -1,0 +1,12 @@
+﻿<Window x:Class="KeypadEntryApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="500">
+    <Grid>
+        <Label Content="Click the box below for input:"  HorizontalAlignment="Left" Margin="89,74,0,0" Name="EntryTextLabel" FontSize="24" VerticalAlignment="Top" Height="43" Width="324" />
+        <TextBox TextAlignment="Right" FontSize="36" Margin="130,140,0,0" Name="InputTextbox" VerticalAlignment="Top" HorizontalAlignment="Left" Width="230" Height="64" PreviewMouseUp="InputTextbox_PreviewMouseUp" />
+    </Grid>
+</Window>
